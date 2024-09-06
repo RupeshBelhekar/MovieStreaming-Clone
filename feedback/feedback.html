@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Feedback</title>
+<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+<link rel="stylesheet" href="feedback.css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="https://s3.bunnycdn.ru/assets/sites/lookmovie/favicon.png" type="image/x-icon"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="main">
+	<div class="wrapper">
+		<div class="first-page">
+			<div class="profile">
+				<div class="profileImage">
+					<img src="Images/lookmovie.png" alt="logo">
+				</div>
+			</div>
+			<div class="experience">
+				<div class="text">How was your experience?</div>
+				<div class="emoji">
+					<div class="happy">
+						<a><span><ion-icon name="happy"></ion-icon></span></a>
+					</div>
+					<div class="sad">
+						<a><span><ion-icon name="sad"></ion-icon></span></a>
+					</div>
+				</div>
+			</div>
+			<div class="form">
+				<div class= "top">
+				</div>
+			</div>
+		</div>
+		<form class="happy-feedback">
+			<div class="headImage">
+				<span id="span1"><ion-icon name="happy"></ion-icon></span>
+			</div>
+			<div class="headText">
+					Thats Great!<br>Tell us what we got right
+			</div>
+			<div class="subTextHappy">
+				<a class="link" href="feedback.html"><span>Change my answer</span></a>
+				<span id="span" class="change"><ion-icon name="sad"></xion-icon></span>
+			</div>
+			<div class="tag">
+				<div class="option">
+					<input type="checkbox" name="checkbox"  id="checkbox">
+					<label for="checkbox">Range of Content</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox">
+					<label for="checkbox">Streaming Quality</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox">
+					<label for="checkbox">Navigation</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox">
+					<label for="checkbox">Streaming Devices</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox">
+					<label for="checkbox">Other</label>
+				</div>
+			</div>
+			<div class="message">
+				<div ><textarea name="message" placeholder="Let us know more..."></textarea>
+				</div>
+			</div>
+			<div class="container">
+				<div class="star-widget">
+				  <input type="radio" name="rate" id="rate-5">
+				  <label for="rate-5" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-4">
+				  <label for="rate-4" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-3">
+				  <label for="rate-3" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-2">
+				  <label for="rate-2" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-1">
+				  <label for="rate-1" class="fas fa-star"></label>
+				</div>
+			</div>
+			<div class="submitButton">Submit
+			</div>
+		</form>
+		<form class="sad-feedback">
+			<div class="headImage">
+				<span id="span2"><ion-icon name="sad"></ion-icon></span>
+			</div>
+			<div class="headText">
+				We are really sorry<br>Tell us what went wrong
+			</div>
+			<div class="subTextHappy">
+				<a class="link" href="feedback.html"><span>Change my answer</span></a>
+				<span id="span" class="change"><ion-icon name="happy"></ion-icon></span>
+			</div>
+			<div class="tag">
+				<div class="option">
+					<input type="checkbox" name="checkbox"  id="checkbox1">
+					<label for="checkbox">Range of Content</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox2">
+					<label for="checkbox">Streaming Quality</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox3">
+					<label for="checkbox">Navigation</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox4">
+					<label for="checkbox">Streaming Devices</label>
+				</div>
+				<div class="option">
+					<input type="checkbox" name="checkbox" id="checkbox5">
+					<label for="checkbox">Other</label>
+				</div>
+			</div>
+			<div class="message">
+				<div ><textarea name="message" placeholder="What went wrong? How can we do better?"></textarea>
+				</div>
+			</div>
+			<div class="container">
+				<div class="star-widget">
+				  <input type="radio" name="rate" id="rate-10">
+				  <label for="rate-10" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-9">
+				  <label for="rate-9" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-8">
+				  <label for="rate-8" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-7">
+				  <label for="rate-7" class="fas fa-star"></label>
+				  <input type="radio" name="rate" id="rate-6">
+				  <label for="rate-6" class="fas fa-star"></label>
+				</div>
+			</div>
+			<div class="submitButton">Submit
+			</div>
+		</form>
+		
+	</div>
+
+</div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	const btn = document.querySelectorAll("button");
+	const post = document.querySelectorAll(".post");
+	const widget = document.querySelectorAll(".star-widget");
+	const editBtn = document.querySelector(".edit");
+	btn.onclick = ()=>{
+	  widget.style.display = "none";
+	  post.style.display = "block";
+	  editBtn.onclick = ()=>{
+		widget.style.display = "block";
+		post.style.display = "none";
+	  }
+	  return false;
+	}
+  </script>
+<script src="feedback.js"></script>
+</body>
+</html>

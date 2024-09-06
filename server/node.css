@@ -1,0 +1,120 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 80%;
+    border: 1px solid red;
+}
+.userinput{
+    height: 50%;
+    width: 100%;
+    border: 1px solid green;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+body {
+    font-family: Cambria, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("download5.avif");
+    transition: background-color 0.3s;
+    background-size: cover; /* Optional: Adjusts the background image to cover the entire background */
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffc400d3;
+    backdrop-filter: blur(0px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.userinput {
+    margin-bottom: 20px;
+    transition: margin-bottom 0.3s;
+}
+
+.userinput div {
+    margin-bottom: 10px;
+}
+
+.userinput label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.userinput input[type="number"],
+.userinput input[type="text"],
+.userinput input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+.userinput button {
+    width: 30%;
+    margin: 5px;
+    padding: 8px 20px;
+    background-color: #7745a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.userinput button:hover {
+    background-color: #48e0b3;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.actions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px 0;
+}

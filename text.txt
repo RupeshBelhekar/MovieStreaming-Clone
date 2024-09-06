@@ -1,0 +1,50 @@
+.share:hover .images-container{
+    opacity: 1;
+    pointer-events: auto;
+}
+.images-container{
+    width: 60%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    gap: 10px;
+    left: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 400ms ease 0s;
+}
+
+.display_menu:hover .m1{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+<div class="like-share">
+    <a href="#" class="like"><span>&hearts;</span></a>
+    <div class="share">
+        <a href="#" style="color: gray;">Share : </a>
+        <div class="images-container">
+        <a href="#" class="images"><img src="X.png" alt="twitter"></a>
+        <a href="#" class="images"><img src="Fb.png" alt="Facebook"></a>
+        <a href="#" class="images"><i class="fa fa-envelope" style="font-size:20px;color:rgb(255, 255, 255)"></i></a>
+        <a href="#" class="images"><img src="link.svg" alt="link"></a>
+        </div>
+    </div>
+</div>
+
+position: absolute;
+    z-index: 2;
+    top: 47px;
+    width: 15rem;
+    height: 30rem;
+    background-color: rgba(128, 128, 128, 0.479);
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 10px;
+    columns: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    pointer-events: none;
