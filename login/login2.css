@@ -12,7 +12,7 @@ body{
     align-items: center;
     /* background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
-    background-image: url('Images/download.jpg');
+    background-image: url('RupeshBelhekar/MovieStreaming-Clone/Images/download.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 1 ease;
